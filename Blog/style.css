@@ -1,0 +1,192 @@
+* {
+  margin: auto;
+}
+
+#container {
+  background: linear-gradient(#e6c0ad, #b5785a);
+  position: relative;
+  padding: 0 300px 50px 300px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 15px 0px 15px 0;
+}
+
+nav.sticky {
+  background-color: #b5785a;
+}
+
+#navBar {
+  padding: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLi {
+  position: relative;
+  list-style: none;
+}
+
+a {
+  position: relative;
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: 0.6s;
+}
+
+a:hover {
+  background-color: #663300;
+  padding: 10px;
+}
+
+#banner {
+  height: 300px;
+  background-size: cover;
+  background-image: url(https://www.tastingtable.com/img/gallery/why-are-some-coffee-beans-shiny-and-others-arent/l-intro-1648568710.jpg);
+  background-repeat: no-repeat;
+}
+
+header {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 4rem;
+  /*
+  font-family: "Sassy Frass", cursive;
+  */
+  font-family: "Birthstone", cursive;
+}
+
+#roasts {
+  position: relative;
+  text-align: justify;
+}
+
+#frenchPress p {
+  padding-bottom: 80px;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.centerCap {
+  text-align: center;
+}
+
+.leftImg {
+  float: left;
+  padding: 0 10px 0 0;
+  border-radius: 20px;
+}
+
+.rightImg {
+  float: right;
+  padding: 0 0 0 10px;
+  border-radius: 20px;
+}
+
+#pourOverImg {
+  height: 300px;
+}
+
+#siphonImg {
+  height: 340px;
+  
+}
+
+#mokaPotImg{
+  margin-top: 40px;
+}
+
+#mexicoImg {
+  margin-top: 30px;
+  border-radius: 50%;
+}
+
+#turkeyImg {
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+#vietnamImg {
+  margin-top: 35px;
+  border-radius: 50%;
+}
+
+#italyImg {
+  margin-top: 35px;
+  width:400px;
+  border-radius: 50%;
+}
+
+#espressoImg {
+  height: 200px;
+  width: 600px;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin: 10px;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.centerP {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  margin: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+h4 {
+  margin: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 1300px) and (min-width: 750px) {
+  #container {
+    padding: 0 75px 75px 75px;
+  }
+  #banner {
+    height: 200px;
+  }
+  #frenchPress p {
+    padding-bottom: 0;
+  }
+  #pourOverImg {
+    padding: 60px 0 0 10px;
+  }
+  #roastsImg {
+    width: 700px;
+  }
+}

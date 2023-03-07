@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER */
+header {
+  background-color:rgb(232, 186, 224);
+  color: darkcyan;
+  padding: 40px;
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/6210856.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 300px;
+}
+nav li {
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Aboreto", cursive;
+}
+.navigation {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 80px;
+  font-family: "Sacramento", cursive;
+}
+/* Media Resonsive additions */
+@media screen and (max-width: 715px) {
+  nav li {
+    margin-left: 5px;
+  }
+} 
+
+/* Main Section */
+section {
+  background-color: darkcyan;
+  padding: 50px;
+  flex-direction: row;
+}
+.figures {
+  background-color: rgb(232, 186, 224);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.figures figure {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+.figures figure img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: grey 0px 0px 10px;
+  border: 1px solid whitesmoke;
+}
+#About-Us {
+  color: black;
+}
+.About-Us {
+  color: rgb(231, 191, 110);
+}
+div {
+  background-color: cornflowerblue;
+  margin: auto;
+  width: 100px;
+}
+
+/* Media Resonsive additions */
+@media screen and ( max-width: 715px) {
+  .figures {
+    display: block;
+  }
+  header {
+    background-size: cover;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: white;
+  padding: 20px;
+  color: purple;
+  text-align: center;
+}
